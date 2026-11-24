@@ -81,6 +81,8 @@ public class Simulacao {
         for (int rodada = 1;
              rodada <= configuracao.getTotalRodadas();
              rodada++) {
+                
+            rodadaAtual = rodada;
 
             System.out.println(
                 "RODADA " + rodada);

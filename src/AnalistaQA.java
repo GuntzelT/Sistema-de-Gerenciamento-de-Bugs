@@ -58,10 +58,7 @@ public class AnalistaQA {
 
         bug.setTempoClassificacaoRestante(tempo);
 
-        System.out.println(
-            "Analista " + id +
-            " iniciou a classificação do " + bug.getId()
-        );
+        
     }
 
     
